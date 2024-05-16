@@ -1,0 +1,16 @@
+{
+  "name": "initials-avatar",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot run index.ts",
+    "build": "bun build",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
